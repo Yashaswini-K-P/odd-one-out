@@ -40,8 +40,8 @@ function generateRandomColor(limit) {
     var color = [];
     for(var i=0; i<limit; i++) {
         color.push(rgbGenerator());
-    return color;
     }
+    return color;
 }
 
 function rgbGenerator() {
